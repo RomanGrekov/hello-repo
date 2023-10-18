@@ -2,7 +2,7 @@
 Description=My Test Script
 
 [Service]
-Environment=SERVICE_NAME=TestRomanG
+rnvironment=SERVICE_NAME=Newversion
 ExecStart=/usr/sbin/test-systemd.sh /var/log/test-systemd.log
 Restart=always
 
